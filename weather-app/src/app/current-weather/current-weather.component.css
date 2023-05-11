@@ -1,0 +1,20 @@
+/* Styles for the CurrentWeatherComponent */
+.current-weather {
+  text-align: center;
+}
+
+.current-weather .location {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.current-weather .temperature {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.current-weather .description {
+  font-size: 18px;
+  margin-top: 10px;
+}

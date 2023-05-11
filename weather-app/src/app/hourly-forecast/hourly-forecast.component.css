@@ -1,0 +1,23 @@
+/* Styles for the HourlyForecastComponent */
+.hourly-forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hourly-forecast-item {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.hourly-forecast-item .time {
+  font-weight: bold;
+}
+
+.hourly-forecast-item .temperature {
+  margin-top: 5px;
+}

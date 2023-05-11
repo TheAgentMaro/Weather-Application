@@ -1,0 +1,23 @@
+/* Styles for the WeeklyForecastComponent */
+.weekly-forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.weekly-forecast-item {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.weekly-forecast-item .day {
+  font-weight: bold;
+}
+
+.weekly-forecast-item .temperature {
+  margin-top: 5px;
+}
